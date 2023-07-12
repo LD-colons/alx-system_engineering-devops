@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((  echo $PATH | find -mindepth 1 -type d | WC -l)
+echo $(( echo $PATH | find -mindepth 1 -type d | WC -l0))
